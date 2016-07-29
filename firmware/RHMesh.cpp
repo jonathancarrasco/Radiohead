@@ -11,7 +11,7 @@
 // Copyright (C) 2011 Mike McCauley
 // $Id: RHMesh.cpp,v 1.9 2015/08/13 02:45:47 mikem Exp $
 
-#include <RHMesh.h>
+#include "RHMesh.h"
 
 uint8_t RHMesh::_tmpMessage[RH_ROUTER_MAX_MESSAGE_LEN];
 
