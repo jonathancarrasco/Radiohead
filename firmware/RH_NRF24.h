@@ -7,8 +7,9 @@
 #ifndef RH_NRF24_h
 #define RH_NRF24_h
 
-#include <RHGenericSPI.h>
-#include <RHNRFSPIDriver.h>
+#include "application.h"
+#include "RHGenericSPI.h"
+#include "RHNRFSPIDriver.h"
 
 // This is the maximum number of bytes that can be carried by the nRF24.
 // We use some for headers, keeping fewer for RadioHead messages

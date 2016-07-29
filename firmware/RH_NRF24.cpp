@@ -3,7 +3,7 @@
 // Copyright (C) 2012 Mike McCauley
 // $Id: RH_NRF24.cpp,v 1.22 2016/04/04 01:40:12 mikem Exp mikem $
 
-#include <RH_NRF24.h>
+#include "RH_NRF24.h"
 
 RH_NRF24::RH_NRF24(uint8_t chipEnablePin, uint8_t slaveSelectPin, RHGenericSPI& spi)
     :

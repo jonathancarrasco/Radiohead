@@ -687,6 +687,7 @@
 
 ////////////////////////////////////////////////////
 // Select platform automatically, if possible
+#define RH_PLATFORM RH_PLATFORM_STM32F2
 #ifndef RH_PLATFORM
  #if (MPIDE>=150 && defined(ARDUINO))
   // Using ChipKIT Core on Arduino IDE
@@ -773,8 +774,8 @@
  #define RH_HAVE_SERIAL
 
 #elif (RH_PLATFORM == RH_PLATFORM_STM32F2) // Particle Photon with firmware-develop
- #include <stm32f2xx.h>
- #include <application.h>
+ #include "stm32f2xx.h"
+ #include "application.h"
  #include <math.h> // floor
  #define RH_HAVE_SERIAL
  #define RH_HAVE_HARDWARE_SPI
