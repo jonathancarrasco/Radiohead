@@ -1,7 +1,7 @@
 {
-  "name": "Radio Head",
+  "name": "RadioHead",
   "author": "Yveaux",
   "license": "GPL V2",
-  "version": "1.60",
+  "version": "1.60.0",
   "description": "Wireless network library"
 }
